@@ -18,7 +18,7 @@ console.log(a()+a());
 
 
 
-output: undefined.
+output: 8
 
 
 3.function a(b){
@@ -28,7 +28,7 @@ console.log(a(2)+a(4));
 
 
 
-output: undefined
+output: 6
 
 4.function a(b){
     console.log(b);
@@ -70,6 +70,7 @@ output:4
 
 
 
+             
 7. output: 10,3 
 30
 
@@ -85,9 +86,31 @@ console.log(4);
 output:3,4
 
 
-9.output:2,5,8,11
+9.
+function a(){
+    for(var i=0; i<10; i++){
+        i = i +2;
+        console.log(i);
+    }
+}
+a();
 
-10.output: 0,1,2,3,4,5,6,7,8,9
+
+output:2,5,8,11
+
+10.
+function a(b,c){
+    for(var i=b; i<c; i++) {
+       console.log(i);
+   }
+   return b*c;
+}
+a(0,10);
+console.log(a(0,10));
+
+
+
+output: 0,1,2,3,4,5,6,7,8,9
            0,1,2,3,4,5,6,7,8,9,0
 
 
@@ -141,5 +164,17 @@ console.log(z);
 15,10
 
 
-15.
+15. var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+    return z;
+}
+z = a();
+console.log(z);
+
+
+
+
+
  15,15
