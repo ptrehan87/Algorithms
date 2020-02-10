@@ -1,0 +1,145 @@
+1.function a(){
+    return 35;
+}
+console.log(a())
+
+
+
+
+output:35
+
+
+
+
+2.function a(){
+    return 4;
+}
+console.log(a()+a());
+
+
+
+output: undefined.
+
+
+3.function a(b){
+    return b;
+}
+console.log(a(2)+a(4));
+
+
+
+output: undefined
+
+4.function a(b){
+    console.log(b);
+    return b*3;
+}
+console.log(a(3));
+
+output 3,9
+
+
+
+
+
+5.function a(b){
+   return b*4;
+   console.log(b);
+}
+console.log(a(10));
+
+
+
+output:40
+
+
+
+
+6.function a(b){
+    if(b<10) {
+        return 2;
+    }
+    else     {
+        return 4;
+    }
+    console.log(b);
+}
+console.log(a(15));
+
+output:4
+
+
+
+7. output: 10,3 
+30
+
+8.function a(b){
+    for(var i=0; i<10; i++){
+        console.log(i);
+    }
+    return i;
+}
+console.log(3);
+console.log(4);
+
+output:3,4
+
+
+9.output:2,5,8,11
+
+10.output: 0,1,2,3,4,5,6,7,8,9
+           0,1,2,3,4,5,6,7,8,9,0
+
+
+
+11.functioncopy a(){
+    for(var i=0; i<10; i++){
+       for(var j=0; j<10; j++){
+           console.log(j);
+       }
+       console.log(i);
+    }
+}
+
+
+output: undefined.
+
+
+
+12.function a(){
+    for(var i=0; i<10; i++){
+        for(var j=0; j<10; j++){
+            console.log(i,j);
+        }
+        console.log(j,i);
+    }
+}
+
+
+output:undefined.
+
+
+13.var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+}
+console.log(z);
+
+
+output: 10
+
+14.var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+}
+a();
+console.log(z);
+
+
+15,10
+
+
+15.
+ 15,15
